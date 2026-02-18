@@ -12,6 +12,7 @@ import { Footer } from './components/layout/footer/footer';
     Landing,
     Footer
   ],
+  exports:[Header,Landing,Footer],
   imports: [
     CommonModule
   ]
